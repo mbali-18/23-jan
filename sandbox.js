@@ -32,7 +32,7 @@ for (let i = 1; i <= 3; i++) {
 }
 
 // For loop with an array of numbers
-const numbers = [10, 20, 30, 40, 50];
+let numbers = [10, 20, 30, 40, 50];
 for (let i = 0; i < numbers.length; i++) {
     console.log(numbers[i]);
 }
@@ -61,7 +61,12 @@ for (let i = 1; i <= 100; i++) {
 console.log("Sum from 1 to 100:", sum);
 
 // For-in loop: Iterating through an object
-const person = { name: "Mbali", age: 22, country: "South Africa" };
+let person = { name: "Mbali", age: 22, country: "South Africa" };
 for (let key in person) {
     console.log(key + ": " + person[key]);
 }
+let i = 6;
+do {
+  console.log(i);
+  i++;
+} while (i <= 5);
